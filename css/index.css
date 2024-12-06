@@ -1,0 +1,59 @@
+/* index.css */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f9;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full viewport height */
+  padding: 20px;
+}
+
+form {
+  width: 100%; /* Full width on mobile */
+  max-width: 400px; /* Maximum width */
+  padding: 40px;
+  background: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 30px; /* More space below the header */
+}
+
+input[type="email"],
+input[type="password"] {
+  width: 90%;
+  padding: 15px; /* Larger padding for input fields */
+  margin-bottom: 20px; /* More space between fields */
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px; /* Larger font size */
+}
+
+button {
+  width: 98%;
+  padding: 15px; /* Thicker button for better interaction */
+  background-color:#01B4BA;
+  border: none;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 18px; /* Larger font size for readability */
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.error-message {
+  color: red;
+  text-align: center;
+  margin-bottom: 20px; /* Adds more space above the error message */
+}
